@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://dev.virtualearth.net/webservices/v1/common"
+ xmlns:ns5="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns7="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns1="http://s.mappoint.net/mappoint-30/"
+ xmlns:ns10="http://dev.virtualearth.net/webservices/v1/geocode"
+ xmlns:ns9="http://dev.virtualearth.net/webservices/v1/geocode/contracts"
+ xmlns:ns13="http://dev.virtualearth.net/webservices/v1/imagery"
+ xmlns:ns12="http://dev.virtualearth.net/webservices/v1/imagery/contracts"
+ xmlns:ns16="http://dev.virtualearth.net/webservices/v1/route"
+ xmlns:ns15="http://dev.virtualearth.net/webservices/v1/route/contracts"
+ xmlns:ns6="http://dev.virtualearth.net/webservices/v1/search"
+ xmlns:ns3="http://dev.virtualearth.net/webservices/v1/search/contracts">
+ <SOAP-ENV:Header>
+  <ns1:CustomerInfoHeader>
+   <ns1:CustomLogEntry>0</ns1:CustomLogEntry>
+  </ns1:CustomerInfoHeader>
+  <ns1:UserInfoHeader>
+   <ns1:Culture>
+    <ns1:Name></ns1:Name>
+    <ns1:Lcid>0</ns1:Lcid>
+   </ns1:Culture>
+   <ns1:DefaultDistanceUnit>Kilometer</ns1:DefaultDistanceUnit>
+   <ns1:Context>
+    <ns1:EntityID>0</ns1:EntityID>
+    <ns1:Iso2></ns1:Iso2>
+   </ns1:Context>
+  </ns1:UserInfoHeader>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+   <ns1:GetGreatCircleDistances>
+    <ns1:latLongs>
+     <ns1:LatLong>
+      <ns1:Latitude>0.000000</ns1:Latitude>
+      <ns1:Longitude>0.000000</ns1:Longitude>
+     </ns1:LatLong>
+    </ns1:latLongs>
+   </ns1:GetGreatCircleDistances>
+
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

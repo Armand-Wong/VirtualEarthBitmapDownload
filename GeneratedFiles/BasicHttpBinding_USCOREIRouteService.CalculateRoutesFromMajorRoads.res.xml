@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://dev.virtualearth.net/webservices/v1/common"
+ xmlns:ns5="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns7="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns1="http://s.mappoint.net/mappoint-30/"
+ xmlns:ns10="http://dev.virtualearth.net/webservices/v1/geocode"
+ xmlns:ns9="http://dev.virtualearth.net/webservices/v1/geocode/contracts"
+ xmlns:ns13="http://dev.virtualearth.net/webservices/v1/imagery"
+ xmlns:ns12="http://dev.virtualearth.net/webservices/v1/imagery/contracts"
+ xmlns:ns16="http://dev.virtualearth.net/webservices/v1/route"
+ xmlns:ns15="http://dev.virtualearth.net/webservices/v1/route/contracts"
+ xmlns:ns6="http://dev.virtualearth.net/webservices/v1/search"
+ xmlns:ns3="http://dev.virtualearth.net/webservices/v1/search/contracts">
+ <SOAP-ENV:Header>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+  <ns15:CalculateRoutesFromMajorRoadsResponse>
+   <ns15:CalculateRoutesFromMajorRoadsResult>
+    <ns16:Routes>
+     <ns16:RouteResult>
+      <ns16:Legs>
+       <ns16:RouteLeg>
+        <ns16:ActualEnd>
+         <ns4:Altitude>0.0</ns4:Altitude>
+         <ns4:Latitude>0.0</ns4:Latitude>
+         <ns4:Longitude>0.0</ns4:Longitude>
+        </ns16:ActualEnd>
+        <ns16:ActualStart>
+         <ns4:Altitude>0.0</ns4:Altitude>
+         <ns4:Latitude>0.0</ns4:Latitude>
+         <ns4:Longitude>0.0</ns4:Longitude>
+        </ns16:ActualStart>
+        <ns16:Itinerary>
+         <ns16:ItineraryItem>
+          <ns16:CompassDirection></ns16:CompassDirection>
+          <ns16:Hints xsi:nil="true"></ns16:Hints>
+          <ns16:Location xsi:nil="true"></ns16:Location>
+          <ns16:ManeuverType xsi:nil="true"></ns16:ManeuverType>
+          <ns16:Summary xsi:nil="true"></ns16:Summary>
+          <ns16:Text></ns16:Text>
+          <ns16:Warnings xsi:nil="true"></ns16:Warnings>
+         </ns16:ItineraryItem>
+        </ns16:Itinerary>
+        <ns16:Summary>
+         <ns16:BoundingRectangle>
+          <ns4:Northeast xsi:nil="true"></ns4:Northeast>
+          <ns4:Southwest xsi:nil="true"></ns4:Southwest>
+         </ns16:BoundingRectangle>
+         <ns16:Distance>0.0</ns16:Distance>
+         <ns16:TimeInSeconds>0</ns16:TimeInSeconds>
+        </ns16:Summary>
+       </ns16:RouteLeg>
+      </ns16:Legs>
+      <ns16:RoutePath>
+       <ns16:Points>
+        <ns4:Location>
+         <ns4:Altitude>0.0</ns4:Altitude>
+         <ns4:Latitude>0.0</ns4:Latitude>
+         <ns4:Longitude>0.0</ns4:Longitude>
+        </ns4:Location>
+       </ns16:Points>
+      </ns16:RoutePath>
+      <ns16:Summary>
+       <ns16:BoundingRectangle>
+        <ns4:Northeast>
+         <ns4:Altitude>0.0</ns4:Altitude>
+         <ns4:Latitude>0.0</ns4:Latitude>
+         <ns4:Longitude>0.0</ns4:Longitude>
+        </ns4:Northeast>
+        <ns4:Southwest>
+         <ns4:Altitude>0.0</ns4:Altitude>
+         <ns4:Latitude>0.0</ns4:Latitude>
+         <ns4:Longitude>0.0</ns4:Longitude>
+        </ns4:Southwest>
+       </ns16:BoundingRectangle>
+       <ns16:Distance>0.0</ns16:Distance>
+       <ns16:TimeInSeconds>0</ns16:TimeInSeconds>
+      </ns16:Summary>
+     </ns16:RouteResult>
+    </ns16:Routes>
+    <ns16:StartingPoints>
+     <ns16:Waypoint>
+      <ns16:Description></ns16:Description>
+      <ns16:Location>
+       <ns4:Altitude>0.0</ns4:Altitude>
+       <ns4:Latitude>0.0</ns4:Latitude>
+       <ns4:Longitude>0.0</ns4:Longitude>
+      </ns16:Location>
+     </ns16:Waypoint>
+    </ns16:StartingPoints>
+   </ns15:CalculateRoutesFromMajorRoadsResult>
+  </ns15:CalculateRoutesFromMajorRoadsResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

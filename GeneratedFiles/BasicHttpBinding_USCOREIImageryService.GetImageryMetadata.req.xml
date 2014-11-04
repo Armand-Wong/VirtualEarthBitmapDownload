@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://dev.virtualearth.net/webservices/v1/common"
+ xmlns:ns5="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns7="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns1="http://s.mappoint.net/mappoint-30/"
+ xmlns:ns10="http://dev.virtualearth.net/webservices/v1/geocode"
+ xmlns:ns9="http://dev.virtualearth.net/webservices/v1/geocode/contracts"
+ xmlns:ns13="http://dev.virtualearth.net/webservices/v1/imagery"
+ xmlns:ns12="http://dev.virtualearth.net/webservices/v1/imagery/contracts"
+ xmlns:ns16="http://dev.virtualearth.net/webservices/v1/route"
+ xmlns:ns15="http://dev.virtualearth.net/webservices/v1/route/contracts"
+ xmlns:ns6="http://dev.virtualearth.net/webservices/v1/search"
+ xmlns:ns3="http://dev.virtualearth.net/webservices/v1/search/contracts">
+ <SOAP-ENV:Header>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+   <ns12:GetImageryMetadata>
+    <ns12:request>
+     <ns13:Options>
+      <ns13:Heading>
+       <ns4:Orientation>0.0</ns4:Orientation>
+      </ns13:Heading>
+      <ns13:Location>
+       <ns4:Altitude>0.0</ns4:Altitude>
+       <ns4:Latitude>0.0</ns4:Latitude>
+       <ns4:Longitude>0.0</ns4:Longitude>
+      </ns13:Location>
+      <ns13:ReturnImageryProviders>false</ns13:ReturnImageryProviders>
+      <ns13:UriScheme>Http</ns13:UriScheme>
+      <ns13:ZoomLevel>0</ns13:ZoomLevel>
+     </ns13:Options>
+     <ns13:Style>Road</ns13:Style>
+    </ns12:request>
+   </ns12:GetImageryMetadata>
+
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

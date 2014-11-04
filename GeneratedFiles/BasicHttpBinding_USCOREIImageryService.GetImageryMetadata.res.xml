@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://dev.virtualearth.net/webservices/v1/common"
+ xmlns:ns5="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns7="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns1="http://s.mappoint.net/mappoint-30/"
+ xmlns:ns10="http://dev.virtualearth.net/webservices/v1/geocode"
+ xmlns:ns9="http://dev.virtualearth.net/webservices/v1/geocode/contracts"
+ xmlns:ns13="http://dev.virtualearth.net/webservices/v1/imagery"
+ xmlns:ns12="http://dev.virtualearth.net/webservices/v1/imagery/contracts"
+ xmlns:ns16="http://dev.virtualearth.net/webservices/v1/route"
+ xmlns:ns15="http://dev.virtualearth.net/webservices/v1/route/contracts"
+ xmlns:ns6="http://dev.virtualearth.net/webservices/v1/search"
+ xmlns:ns3="http://dev.virtualearth.net/webservices/v1/search/contracts">
+ <SOAP-ENV:Header>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+  <ns12:GetImageryMetadataResponse>
+   <ns12:GetImageryMetadataResult>
+    <ns13:Results>
+     <ns13:ImageryMetadataResult>
+      <ns13:ImageSize>
+       <ns4:Height>0</ns4:Height>
+       <ns4:Width>0</ns4:Width>
+      </ns13:ImageSize>
+      <ns13:ImageUri></ns13:ImageUri>
+      <ns13:ImageUriSubdomains>
+       <ns7:string></ns7:string>
+      </ns13:ImageUriSubdomains>
+      <ns13:ImageryProviders>
+       <ns13:ImageryProvider>
+        <ns13:Attribution></ns13:Attribution>
+        <ns13:CoverageAreas>
+         <ns13:CoverageArea>
+          <ns13:BoundingRectangle xsi:nil="true"></ns13:BoundingRectangle>
+          <ns13:ZoomRange xsi:nil="true"></ns13:ZoomRange>
+         </ns13:CoverageArea>
+        </ns13:CoverageAreas>
+       </ns13:ImageryProvider>
+      </ns13:ImageryProviders>
+      <ns13:Vintage>
+       <ns4:From>2009-04-23T18:16:49Z</ns4:From>
+       <ns4:To>2009-04-23T18:16:49Z</ns4:To>
+      </ns13:Vintage>
+      <ns13:ZoomRange>
+       <ns4:From>0</ns4:From>
+       <ns4:To>0</ns4:To>
+      </ns13:ZoomRange>
+     </ns13:ImageryMetadataResult>
+    </ns13:Results>
+   </ns12:GetImageryMetadataResult>
+  </ns12:GetImageryMetadataResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

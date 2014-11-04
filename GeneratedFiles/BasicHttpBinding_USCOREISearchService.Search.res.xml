@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://dev.virtualearth.net/webservices/v1/common"
+ xmlns:ns5="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns7="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns1="http://s.mappoint.net/mappoint-30/"
+ xmlns:ns10="http://dev.virtualearth.net/webservices/v1/geocode"
+ xmlns:ns9="http://dev.virtualearth.net/webservices/v1/geocode/contracts"
+ xmlns:ns13="http://dev.virtualearth.net/webservices/v1/imagery"
+ xmlns:ns12="http://dev.virtualearth.net/webservices/v1/imagery/contracts"
+ xmlns:ns16="http://dev.virtualearth.net/webservices/v1/route"
+ xmlns:ns15="http://dev.virtualearth.net/webservices/v1/route/contracts"
+ xmlns:ns6="http://dev.virtualearth.net/webservices/v1/search"
+ xmlns:ns3="http://dev.virtualearth.net/webservices/v1/search/contracts">
+ <SOAP-ENV:Header>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+  <ns3:SearchResponse>
+   <ns3:SearchResult>
+    <ns6:QuerySuggestion>
+     <ns6:Query></ns6:Query>
+     <ns6:StructuredQuery>
+      <ns6:Keyword></ns6:Keyword>
+      <ns6:Location></ns6:Location>
+     </ns6:StructuredQuery>
+    </ns6:QuerySuggestion>
+    <ns6:ResultSets>
+     <ns6:SearchResultSet>
+      <ns6:AlternateSearchRegions>
+       <ns6:SearchRegion>
+        <ns6:BoundingArea></ns6:BoundingArea>
+        <ns6:GeocodeLocation>
+         <ns4:Address>
+          <ns4:AddressLine></ns4:AddressLine>
+          <ns4:AdminDistrict></ns4:AdminDistrict>
+          <ns4:CountryRegion></ns4:CountryRegion>
+          <ns4:District></ns4:District>
+          <ns4:FormattedAddress></ns4:FormattedAddress>
+          <ns4:Locality></ns4:Locality>
+          <ns4:PostalCode></ns4:PostalCode>
+          <ns4:PostalTown></ns4:PostalTown>
+         </ns4:Address>
+         <ns4:BestView>
+          <ns4:Northeast xsi:nil="true"></ns4:Northeast>
+          <ns4:Southwest xsi:nil="true"></ns4:Southwest>
+         </ns4:BestView>
+         <ns4:Confidence>High</ns4:Confidence>
+         <ns4:DisplayName></ns4:DisplayName>
+         <ns4:EntityType></ns4:EntityType>
+         <ns4:Locations>
+          <ns4:GeocodeLocation xsi:nil="true"></ns4:GeocodeLocation>
+         </ns4:Locations>
+         <ns4:MatchCodes>
+          <ns7:string xsi:nil="true"></ns7:string>
+         </ns4:MatchCodes>
+        </ns6:GeocodeLocation>
+        <ns6:Source></ns6:Source>
+       </ns6:SearchRegion>
+      </ns6:AlternateSearchRegions>
+      <ns6:AvailableFilters>
+       <ns6:AvailableFilter>
+        <ns6:PropertyId>0</ns6:PropertyId>
+        <ns6:PropertyName></ns6:PropertyName>
+       </ns6:AvailableFilter>
+      </ns6:AvailableFilters>
+      <ns6:CategoryCounts>
+       <ns6:CategoryCount>
+        <ns6:Category>
+         <ns6:Id>0</ns6:Id>
+         <ns6:Name></ns6:Name>
+        </ns6:Category>
+        <ns6:Count>0</ns6:Count>
+        <ns6:CountByNeighborhood>
+         <ns7:KeyValueOfNeighborhoodintkC8b0tr6>
+          <ns7:Key xsi:nil="true"></ns7:Key>
+          <ns7:Value>0</ns7:Value>
+         </ns7:KeyValueOfNeighborhoodintkC8b0tr6>
+        </ns6:CountByNeighborhood>
+       </ns6:CategoryCount>
+      </ns6:CategoryCounts>
+      <ns6:EstimatedMatches>0</ns6:EstimatedMatches>
+      <ns6:ListingType></ns6:ListingType>
+      <ns6:Parse>
+       <ns6:Address>
+        <ns4:AddressLine></ns4:AddressLine>
+        <ns4:AdminDistrict></ns4:AdminDistrict>
+        <ns4:CountryRegion></ns4:CountryRegion>
+        <ns4:District></ns4:District>
+        <ns4:FormattedAddress></ns4:FormattedAddress>
+        <ns4:Locality></ns4:Locality>
+        <ns4:PostalCode></ns4:PostalCode>
+        <ns4:PostalTown></ns4:PostalTown>
+       </ns6:Address>
+       <ns6:Keyword></ns6:Keyword>
+       <ns6:Landmark></ns6:Landmark>
+       <ns6:LocationSeparator></ns6:LocationSeparator>
+      </ns6:Parse>
+      <ns6:QueryCorrected>false</ns6:QueryCorrected>
+      <ns6:Results>
+       <ns6:SearchResultBase>
+        <ns6:Distance>0.0</ns6:Distance>
+        <ns6:Id></ns6:Id>
+        <ns6:LocationData>
+         <ns6:Confidence>High</ns6:Confidence>
+         <ns6:Locations>
+          <ns4:GeocodeLocation xsi:nil="true"></ns4:GeocodeLocation>
+         </ns6:Locations>
+         <ns6:MatchCodes>
+          <ns7:string xsi:nil="true"></ns7:string>
+         </ns6:MatchCodes>
+        </ns6:LocationData>
+        <ns6:Name></ns6:Name>
+       </ns6:SearchResultBase>
+      </ns6:Results>
+      <ns6:SearchRegion>
+       <ns6:BoundingArea></ns6:BoundingArea>
+       <ns6:GeocodeLocation>
+        <ns4:Address>
+         <ns4:AddressLine></ns4:AddressLine>
+         <ns4:AdminDistrict></ns4:AdminDistrict>
+         <ns4:CountryRegion></ns4:CountryRegion>
+         <ns4:District></ns4:District>
+         <ns4:FormattedAddress></ns4:FormattedAddress>
+         <ns4:Locality></ns4:Locality>
+         <ns4:PostalCode></ns4:PostalCode>
+         <ns4:PostalTown></ns4:PostalTown>
+        </ns4:Address>
+        <ns4:BestView>
+         <ns4:Northeast>
+          <ns4:Altitude xsi:nil="true"></ns4:Altitude>
+          <ns4:Latitude xsi:nil="true"></ns4:Latitude>
+          <ns4:Longitude xsi:nil="true"></ns4:Longitude>
+         </ns4:Northeast>
+         <ns4:Southwest>
+          <ns4:Altitude xsi:nil="true"></ns4:Altitude>
+          <ns4:Latitude xsi:nil="true"></ns4:Latitude>
+          <ns4:Longitude xsi:nil="true"></ns4:Longitude>
+         </ns4:Southwest>
+        </ns4:BestView>
+        <ns4:Confidence>High</ns4:Confidence>
+        <ns4:DisplayName></ns4:DisplayName>
+        <ns4:EntityType></ns4:EntityType>
+        <ns4:Locations>
+         <ns4:GeocodeLocation>
+          <ns4:CalculationMethod></ns4:CalculationMethod>
+         </ns4:GeocodeLocation>
+        </ns4:Locations>
+        <ns4:MatchCodes>
+         <ns7:string></ns7:string>
+        </ns4:MatchCodes>
+       </ns6:GeocodeLocation>
+       <ns6:Source></ns6:Source>
+      </ns6:SearchRegion>
+     </ns6:SearchResultSet>
+    </ns6:ResultSets>
+   </ns3:SearchResult>
+  </ns3:SearchResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

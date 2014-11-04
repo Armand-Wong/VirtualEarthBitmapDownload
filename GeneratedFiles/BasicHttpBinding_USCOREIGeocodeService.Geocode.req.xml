@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns4="http://dev.virtualearth.net/webservices/v1/common"
+ xmlns:ns5="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns7="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:ns1="http://s.mappoint.net/mappoint-30/"
+ xmlns:ns10="http://dev.virtualearth.net/webservices/v1/geocode"
+ xmlns:ns9="http://dev.virtualearth.net/webservices/v1/geocode/contracts"
+ xmlns:ns13="http://dev.virtualearth.net/webservices/v1/imagery"
+ xmlns:ns12="http://dev.virtualearth.net/webservices/v1/imagery/contracts"
+ xmlns:ns16="http://dev.virtualearth.net/webservices/v1/route"
+ xmlns:ns15="http://dev.virtualearth.net/webservices/v1/route/contracts"
+ xmlns:ns6="http://dev.virtualearth.net/webservices/v1/search"
+ xmlns:ns3="http://dev.virtualearth.net/webservices/v1/search/contracts">
+ <SOAP-ENV:Header>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+   <ns9:Geocode>
+    <ns9:request>
+     <ns10:Address>
+      <ns4:AddressLine></ns4:AddressLine>
+      <ns4:AdminDistrict></ns4:AdminDistrict>
+      <ns4:CountryRegion></ns4:CountryRegion>
+      <ns4:District></ns4:District>
+      <ns4:FormattedAddress></ns4:FormattedAddress>
+      <ns4:Locality></ns4:Locality>
+      <ns4:PostalCode></ns4:PostalCode>
+      <ns4:PostalTown></ns4:PostalTown>
+     </ns10:Address>
+     <ns10:Options>
+      <ns10:Count>0</ns10:Count>
+      <ns10:Filters>
+       <ns10:FilterBase></ns10:FilterBase>
+      </ns10:Filters>
+     </ns10:Options>
+     <ns10:Query></ns10:Query>
+    </ns9:request>
+   </ns9:Geocode>
+
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
